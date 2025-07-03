@@ -110,12 +110,6 @@ iBrowsy requires an OpenAI API key for AI features to work:
 - Use voice input with the microphone button
 - Take screenshots for visual questions
 
-### Screen Annotation
-- Click the **Screen Annotation** button (pencil icon)
-- Draw over any content on your screen
-- Record your screen with annotations
-- Save screenshots with timestamp
-
 ### Privacy Features
 - Go to **Settings** → **Privacy** tab
 - Configure blocking levels and performance modes
@@ -209,7 +203,6 @@ SOFTWARE.
 
 Need help? Here are your options:
 
-- 📖 **Documentation**: Check the [Wiki](../../wiki) for detailed guides
 - 🐛 **Bug Reports**: [Open an issue](../../issues/new?template=bug_report.md)
 - 💡 **Feature Requests**: [Request a feature](../../issues/new?template=feature_request.md)
 - 💬 **Discussions**: Join our [GitHub Discussions](../../discussions)
@@ -222,9 +215,6 @@ A: Make sure you've updated the bundle identifier from `com.yourcompany.iBrowsy`
 **Q: AI features aren't working**  
 A: Make sure you've configured your OpenAI API key in Settings → Browser → OpenAI API Key.
 
-**Q: Screen annotation toolbar crashes**  
-A: This is a known issue that has been fixed. Update to the latest version.
-
 **Q: Picture-in-Picture not working**  
 A: Ensure you've granted screen recording permissions to iBrowsy in System Preferences → Security & Privacy.
 
@@ -234,16 +224,6 @@ A: Ensure you've granted screen recording permissions to iBrowsy in System Prefe
 - **Apple** for the excellent WebKit and SwiftUI frameworks
 - **The Swift Community** for continuous inspiration and support
 - **All Contributors** who help make iBrowsy better
-
-## 🗺️ Roadmap
-
-Check out our [project roadmap](../../projects) to see what's coming next:
-
-- 🔍 Enhanced search capabilities
-- 🌐 Tab synchronization across devices
-- 🎯 More AI-powered productivity tools
-- 📱 iOS companion app
-- 🔐 Advanced security features
 
 ---
 
