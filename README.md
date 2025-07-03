@@ -16,13 +16,13 @@ A modern, AI-powered web browser for macOS that reimagines web browsing with int
 - **Webpage Interaction**: AI can highlight text, navigate to sites, and bookmark pages
 - **Price Comparison**: Smart product price analysis across major retailers
 - **Trip Planning**: AI-assisted travel planning with integrated search links
+![Screenshot 2025-07-02 at 8 11 25 PM](https://github.com/user-attachments/assets/79f70d20-ac99-4d7c-8731-4c3767f7af67)
 
 ### 🎯 Advanced Productivity Tools
-- **Screen Annotation**: System-wide drawing and annotation over any content
-- **Screen Recording**: Integrated video recording with annotation overlay
 - **Split-View Analysis**: Real-time AI analysis when viewing two sources side-by-side
 - **Picture-in-Picture**: Automatic video PiP with focus-loss detection
 - **Citation Manager**: Academic-style citation collection and management
+![Screenshot 2025-07-02 at 8 12 33 PM](https://github.com/user-attachments/assets/f98e48b5-66f9-4141-b9c2-37903dee3bf7)
 
 ### 🛡️ Privacy & Security
 - **AI Privacy Manager**: Machine learning-powered ad and tracker blocking
@@ -30,6 +30,7 @@ A modern, AI-powered web browser for macOS that reimagines web browsing with int
 - **Smart Performance Modes**: Aggressive, Balanced, or Minimal blocking options
 - **Non-Persistent Browsing**: Data cleared when app closes (configurable)
 - **No Telemetry**: Your data stays on your device
+![Screenshot 2025-07-02 at 8 13 31 PM](https://github.com/user-attachments/assets/5c409994-03cc-49f7-81ef-df1df6f0e354)
 
 ### 🎨 Modern User Experience
 - **Liquid Glass Design**: Beautiful, modern interface with glass morphism
@@ -37,6 +38,7 @@ A modern, AI-powered web browser for macOS that reimagines web browsing with int
 - **Customizable Toolbar**: Drag-and-drop AI action buttons
 - **Tab Management**: Intelligent tab overview and search
 - **Smart Bookmarking**: Organized bookmark system with folders
+![Screenshot 2025-07-02 at 8 14 08 PM](https://github.com/user-attachments/assets/de62da7c-fad6-4b95-88b2-ce8a192b8ede)
 
 ## 🚀 Quick Start
 
