@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA59215D2DB2FEE30035CE55 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA59215C2DB2FEE30035CE55 /* SwiftUI.framework */; };
+		FA59215F2DB2FEEA0035CE55 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA59215E2DB2FEEA0035CE55 /* WebKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAA8295B2DB491D800D37D22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA5921072DB2FC870035CE55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA59210E2DB2FC870035CE55;
+			remoteInfo = iBrowsy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA59210F2DB2FC870035CE55 /* iBrowsy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iBrowsy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA5921212DB2FC880035CE55 /* iBrowsyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iBrowsyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA59212B2DB2FC880035CE55 /* iBrowsyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iBrowsyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA59215C2DB2FEE30035CE55 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		FA59215E2DB2FEEA0035CE55 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		FAA82A242DB4941600D37D22 /* Exceptions for "iBrowsy" folder in "iBrowsy" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = FA59210E2DB2FC870035CE55 /* iBrowsy */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		FA5921112DB2FC870035CE55 /* iBrowsy */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				FAA82A242DB4941600D37D22 /* Exceptions for "iBrowsy" folder in "iBrowsy" target */,
+			);
+			path = iBrowsy;
+			sourceTree = "<group>";
+		};
+		FA5921242DB2FC880035CE55 /* iBrowsyTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = iBrowsyTests;
+			sourceTree = "<group>";
+		};
+		FA59212E2DB2FC880035CE55 /* iBrowsyUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = iBrowsyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA59210C2DB2FC870035CE55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA59215F2DB2FEEA0035CE55 /* WebKit.framework in Frameworks */,
+				FA59215D2DB2FEE30035CE55 /* SwiftUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA5921282DB2FC880035CE55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA5921062DB2FC870035CE55 = {
+			isa = PBXGroup;
+			children = (
+				FA5921112DB2FC870035CE55 /* iBrowsy */,
+				FA5921242DB2FC880035CE55 /* iBrowsyTests */,
+				FA59212E2DB2FC880035CE55 /* iBrowsyUITests */,
+				FA59215B2DB2FEE30035CE55 /* Frameworks */,
+				FA5921102DB2FC870035CE55 /* Products */,
+				FAA829292DB491D700D37D22 /* Recovered References */,
+			);
+			sourceTree = "<group>";
+		};
+		FA5921102DB2FC870035CE55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA59210F2DB2FC870035CE55 /* iBrowsy.app */,
+				FA5921212DB2FC880035CE55 /* iBrowsyTests.xctest */,
+				FA59212B2DB2FC880035CE55 /* iBrowsyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA59215B2DB2FEE30035CE55 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA59215E2DB2FEEA0035CE55 /* WebKit.framework */,
+				FA59215C2DB2FEE30035CE55 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FAA829292DB491D700D37D22 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA59210E2DB2FC870035CE55 /* iBrowsy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAA8295E2DB491F900D37D22 /* Build configuration list for PBXNativeTarget "iBrowsy" */;
+			buildPhases = (
+				FA59210B2DB2FC870035CE55 /* Sources */,
+				FA59210C2DB2FC870035CE55 /* Frameworks */,
+				FA59210D2DB2FC870035CE55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				FA5921112DB2FC870035CE55 /* iBrowsy */,
+			);
+			name = iBrowsy;
+			packageProductDependencies = (
+			);
+			productName = iBrowsy;
+			productReference = FA59210F2DB2FC870035CE55 /* iBrowsy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA5921202DB2FC880035CE55 /* iBrowsyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA5921382DB2FC880035CE55 /* Build configuration list for PBXNativeTarget "iBrowsyTests" */;
+			buildPhases = (
+				FA59211D2DB2FC880035CE55 /* Sources */,
+				FA59211F2DB2FC880035CE55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA5921232DB2FC880035CE55 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				FA5921242DB2FC880035CE55 /* iBrowsyTests */,
+			);
+			name = iBrowsyTests;
+			packageProductDependencies = (
+			);
+			productName = iBrowsyTests;
+			productReference = FA5921212DB2FC880035CE55 /* iBrowsyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA59212A2DB2FC880035CE55 /* iBrowsyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA59213B2DB2FC880035CE55 /* Build configuration list for PBXNativeTarget "iBrowsyUITests" */;
+			buildPhases = (
+				FA5921272DB2FC880035CE55 /* Sources */,
+				FA5921282DB2FC880035CE55 /* Frameworks */,
+				FA5921292DB2FC880035CE55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				FA59212E2DB2FC880035CE55 /* iBrowsyUITests */,
+			);
+			name = iBrowsyUITests;
+			packageProductDependencies = (
+			);
+			productName = iBrowsyUITests;
+			productReference = FA59212B2DB2FC880035CE55 /* iBrowsyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA5921072DB2FC870035CE55 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					FA59210E2DB2FC870035CE55 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					FA5921202DB2FC880035CE55 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = FA59210E2DB2FC870035CE55;
+					};
+					FA59212A2DB2FC880035CE55 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = FA59210E2DB2FC870035CE55;
+					};
+				};
+			};
+			buildConfigurationList = FA59210A2DB2FC870035CE55 /* Build configuration list for PBXProject "iBrowsy" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA5921062DB2FC870035CE55;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = FA5921102DB2FC870035CE55 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA59210E2DB2FC870035CE55 /* iBrowsy */,
+				FA5921202DB2FC880035CE55 /* iBrowsyTests */,
+				FA59212A2DB2FC880035CE55 /* iBrowsyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA59210D2DB2FC870035CE55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA59211F2DB2FC880035CE55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA5921292DB2FC880035CE55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA59210B2DB2FC870035CE55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA59211D2DB2FC880035CE55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA5921272DB2FC880035CE55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA5921232DB2FC880035CE55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA59210E2DB2FC870035CE55 /* iBrowsy */;
+			targetProxy = FAA8295B2DB491D800D37D22 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FA5921332DB2FC880035CE55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FA5921342DB2FC880035CE55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FA5921392DB2FC880035CE55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.iBrowsyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iBrowsy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iBrowsy";
+			};
+			name = Debug;
+		};
+		FA59213A2DB2FC880035CE55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.iBrowsyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iBrowsy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iBrowsy";
+			};
+			name = Release;
+		};
+		FA59213C2DB2FC880035CE55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.iBrowsyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_TARGET_NAME = iBrowsy;
+			};
+			name = Debug;
+		};
+		FA59213D2DB2FC880035CE55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.iBrowsyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_TARGET_NAME = iBrowsy;
+			};
+			name = Release;
+		};
+		FAA8295C2DB491D800D37D22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = iBrowsy/iBrowsy.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = iBrowsy/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = iBrowsy;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.iBrowsy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FAA8295D2DB491D800D37D22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = iBrowsy/iBrowsyRelease.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = iBrowsy/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = iBrowsy;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.iBrowsy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA59210A2DB2FC870035CE55 /* Build configuration list for PBXProject "iBrowsy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA5921332DB2FC880035CE55 /* Debug */,
+				FA5921342DB2FC880035CE55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA5921382DB2FC880035CE55 /* Build configuration list for PBXNativeTarget "iBrowsyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA5921392DB2FC880035CE55 /* Debug */,
+				FA59213A2DB2FC880035CE55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA59213B2DB2FC880035CE55 /* Build configuration list for PBXNativeTarget "iBrowsyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA59213C2DB2FC880035CE55 /* Debug */,
+				FA59213D2DB2FC880035CE55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAA8295E2DB491F900D37D22 /* Build configuration list for PBXNativeTarget "iBrowsy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA8295C2DB491D800D37D22 /* Debug */,
+				FAA8295D2DB491D800D37D22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA5921072DB2FC870035CE55 /* Project object */;
+}
